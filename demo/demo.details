@@ -1,6 +1,6 @@
 ---
- name: Brightcove CMS API Video Schema Generator
- description: Generates a video schema with iframe player embed code
+ name: Brightcove Player: Float and Park
+ description: Brightcove Player that can floats and parks when you scroll
  authors:
    - Robert Crooks
    - Brightcove Learning Services
