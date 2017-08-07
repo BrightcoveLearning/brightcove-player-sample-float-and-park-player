@@ -1,0 +1,88 @@
+<article>
+    <h1>CMS API Sample</h1>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js">
+    </script>
+    <h2>Video Schema Generator</h2>
+    <p class="text-warning">
+        <span style="color:#990000;">All fields are <strong>required</strong></span>. Default values are included from the Brightcove Learning Services demo account to allow you to test the tool &mdash; you must replace all of these to get a schema for your own video.</p>
+
+        <fieldset>
+            <legend>Account Information</legend>
+            <div id="accountInfo">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Video Cloud Account ID:</td>
+                            <td>
+                                <input id="accountID" type="text" size="60" placeholder="1752604059001">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="../../oauth-api/getting-started/oauth-api-overview.html">Client id</a>:</td>
+                            <td>
+                                <input id="clientID" type="text" size="60" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="../../oauth-api/getting-started/oauth-api-overview.html">Client secret</a>:</td>
+                            <td>
+                                <input id="clientSecret" type="text" size="60" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Player Information</legend>
+            <div id="playerInfo">
+                <p class="BCL-aside">Note: use a single video player</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Video ID</td>
+                            <td>
+                                <input id="videoID" type="text" size="60" placeholder="4454620113001">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Player ID (from Publishing Module or publishing code):</td>
+                            <td>
+                                <input id="playerID" size="60" placeholder="28e29e6d-bed3-4db9-8d70-8d55b8aa3091" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Player width:</td>
+                            <td>
+                                <input id="playerWidth" type="text" size="60" placeholder="480" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Player height:</td>
+                            <td>
+                                <input id="playerHeight" type="text" size="60" placeholder="270" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </fieldset>
+    </div>
+    <p>
+        <button id="generateButton">Generate Schema</button>
+    </p>
+</div>
+<div id="results" class="section">
+    <h3>Results</h3>
+    <p>The Generated Schema and Player Publishing Code</p>
+    <div id="publishingCodeWrapper">
+        <fieldset>
+            <legend>Publishing Code</legend>
+<textarea id="publishingCode"></textarea>
+            </p>
+        </fieldset>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js">
+</script>
+
+
+</article>
