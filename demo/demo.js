@@ -1,4 +1,4 @@
-var BCLS = (function (window, document) {
+document.addEventListener('load', function() {
     var // player wrapper
         playerWrapper = document.getElementById('playerWrapper'),
         // get the wrapper's initial position
@@ -45,4 +45,4 @@ var BCLS = (function (window, document) {
         // add scroll event listener, but only listen once!
         document.addEventListener('scroll', scrollListener);
 
-})(window, document);
+});
