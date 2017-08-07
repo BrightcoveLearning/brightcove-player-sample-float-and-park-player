@@ -43,6 +43,6 @@ var BCLS = (function (window, document) {
         }
 
         // add scroll event listener, but only listen once!
-        window.addEventListener('scroll', scrollListener);
+        document.addEventListener('scroll', scrollListener);
 
 })(window, document);
