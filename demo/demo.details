@@ -1,5 +1,5 @@
 ---
- name: Brightcove Player: Float and Park
+ name: Brightcove Player Float and Park
  description: Brightcove Player that can floats and parks when you scroll
  authors:
    - Robert Crooks
